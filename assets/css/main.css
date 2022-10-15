@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap");
+body {
+  background-color: hsl(225deg, 14%, 11%);
+  color: white;
+  font-family: "Figtree", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 350px;
+  background-color: hsl(224deg, 14%, 15%);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+  margin: 1rem;
+  z-index: 1;
+}
+
+.display {
+  min-height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.buttons {
+  display: grid;
+  background: linear-gradient(hsl(222deg, 14%, 19%), hsl(224deg, 14%, 15%));
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  padding: 1rem;
+  font-weight: 700;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.buttons > * {
+  aspect-ratio: 1/1;
+  background-color: hsl(224deg, 14%, 15%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  transition: 0.25s ease;
+}
+.buttons > *:hover {
+  background-color: white;
+  color: hsl(225deg, 14%, 11%);
+}
+.buttons > *:active {
+  background-color: gray;
+}
+
+.operator {
+  font-size: 1.5rem;
+  color: hsl(0deg, 89%, 65%);
+}
+.operator:hover {
+  background-color: hsl(0deg, 89%, 65%);
+}
+.operator:active {
+  background-color: gray;
+}
+
+.special {
+  color: hsl(169deg, 83%, 54%);
+}
+.special:hover {
+  background-color: hsl(169deg, 83%, 54%);
+}
+.special:active {
+  background-color: gray;
+}
+
+#totalDisplay {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+footer a {
+  color: hsl(169deg, 83%, 54%);
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+footer a:hover {
+  text-shadow: 0 0 20px hsl(169deg, 83%, 54%);
+}/*# sourceMappingURL=main.css.map */
