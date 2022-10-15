@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&display=swap");
+
 body {
   background-color: hsl(225deg, 14%, 11%);
   color: white;
@@ -36,7 +37,7 @@ main {
   border-radius: 1rem 1rem 0 0;
 }
 
-.buttons > * {
+.buttons>* {
   aspect-ratio: 1/1;
   background-color: hsl(224deg, 14%, 15%);
   color: white;
@@ -44,11 +45,13 @@ main {
   border-radius: 5px;
   transition: 0.25s ease;
 }
-.buttons > *:hover {
+
+.buttons>*:hover {
   background-color: white;
   color: hsl(225deg, 14%, 11%);
 }
-.buttons > *:active {
+
+.buttons>*:active {
   background-color: gray;
 }
 
@@ -56,9 +59,11 @@ main {
   font-size: 1.5rem;
   color: hsl(0deg, 89%, 65%);
 }
+
 .operator:hover {
   background-color: hsl(0deg, 89%, 65%);
 }
+
 .operator:active {
   background-color: gray;
 }
@@ -66,9 +71,11 @@ main {
 .special {
   color: hsl(169deg, 83%, 54%);
 }
+
 .special:hover {
   background-color: hsl(169deg, 83%, 54%);
 }
+
 .special:active {
   background-color: gray;
 }
@@ -78,11 +85,18 @@ main {
   font-weight: 600;
 }
 
+footer {
+  text-align: center;
+}
+
 footer a {
   color: hsl(169deg, 83%, 54%);
   text-decoration: none;
   transition: 0.3s ease;
 }
+
 footer a:hover {
   text-shadow: 0 0 20px hsl(169deg, 83%, 54%);
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=main.css.map */
