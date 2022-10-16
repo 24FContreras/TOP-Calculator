@@ -116,13 +116,6 @@ dotBtn.addEventListener("click", function () {
   } else return;
 });
 
-dotBtn.addEventListener("click", function () {
-  if (!activeDigit.includes(".")) {
-    activeDigit += ".";
-    totalDisplay.textContent = activeDigit;
-  } else return;
-});
-
 deleteDigitBtn.addEventListener("click", function () {
   activeDigit = "";
   totalDisplay.textContent = activeDigit;
