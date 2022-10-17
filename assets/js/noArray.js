@@ -104,6 +104,7 @@ negateBtn.addEventListener("click", function () {
   else activeNumber = "-" + activeNumber;
 
   console.log(activeNumber);
+  bottomDisplay.textContent = activeNumber;
 });
 
 resetBtn.addEventListener("click", function () {
